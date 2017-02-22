@@ -1,0 +1,29 @@
+{
+  "name": "google-trends-microservice",
+  "version": "1.0.0",
+  "description": "Microservice for pulling and parsing Google's Hot Trends feed.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sean T Taylor",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "errorhandler": "^1.4.2",
+    "express": "^4.13.3",
+    "google-trends-api-es": "^1.2.6",
+    "matchdep": "~0.1.2",
+    "method-override": "^2.3.5",
+    "morgan": "^1.6.1",
+    "multer": "^1.1.0"
+  },
+  "devDependencies": {
+    "errorhandler": "^1.4.2",
+    "nodemon": "^1.11.0"
+  },
+  "engines": {
+    "node": "6.5.0",
+    "npm": "2.14.12"
+  }
+}
