@@ -9,7 +9,7 @@ function getTrends(request, response) {
 	googleTrends.hotTrendsDetail("US").then(function(results) {
 		response.json(results);
 	}).catch(function(err){
-		console.log(err);
+		response.json({error: err});
 	});
 }
 	
